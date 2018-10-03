@@ -6,6 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Simple Counter App</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+  body{
+  	background-color: hsla(89, 43%, 51%, 0.3);
+  }
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+h1{
+	text-align:left;
+	text-decoration: underline;
+}
+</style>
 </head>
 <body>
 
@@ -15,8 +44,8 @@
       <input type="text" readonly="readonly" id="counter" value="0">
   </div>
   <div class="counter__btn">
-    <input type="button" value="Increment">
-    <input type="button" value="Decrement">
+    <input type="button" class="button" value="Increment">
+    <input type="button" class="button" value="Decrement">
   </div>
 </div>
   
